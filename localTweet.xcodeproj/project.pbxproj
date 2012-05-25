@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180A7171156F2B6500629A7E /* timelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A7170156F2B6500629A7E /* timelineViewController.m */; };
 		F5FB81FE156F116B003EEC6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB81FD156F116B003EEC6B /* UIKit.framework */; };
 		F5FB8200156F116B003EEC6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB81FF156F116B003EEC6B /* Foundation.framework */; };
 		F5FB8202156F116B003EEC6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB8201156F116B003EEC6B /* CoreGraphics.framework */; };
@@ -14,10 +15,11 @@
 		F5FB820A156F116B003EEC6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB8209156F116B003EEC6B /* main.m */; };
 		F5FB820E156F116B003EEC6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB820D156F116B003EEC6B /* AppDelegate.m */; };
 		F5FB8211156F116B003EEC6B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FB820F156F116B003EEC6B /* MainStoryboard.storyboard */; };
-		F5FB8214156F116B003EEC6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB8213156F116B003EEC6B /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180A716F156F2B6500629A7E /* timelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timelineViewController.h; sourceTree = "<group>"; };
+		180A7170156F2B6500629A7E /* timelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timelineViewController.m; sourceTree = "<group>"; };
 		F5FB81F9156F116B003EEC6B /* localTweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = localTweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5FB81FD156F116B003EEC6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5FB81FF156F116B003EEC6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,8 +31,6 @@
 		F5FB820C156F116B003EEC6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5FB820D156F116B003EEC6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F5FB8210156F116B003EEC6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F5FB8212156F116B003EEC6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F5FB8213156F116B003EEC6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +77,11 @@
 		F5FB8203156F116B003EEC6B /* localTweet */ = {
 			isa = PBXGroup;
 			children = (
+				180A716F156F2B6500629A7E /* timelineViewController.h */,
+				180A7170156F2B6500629A7E /* timelineViewController.m */,
 				F5FB820C156F116B003EEC6B /* AppDelegate.h */,
 				F5FB820D156F116B003EEC6B /* AppDelegate.m */,
 				F5FB820F156F116B003EEC6B /* MainStoryboard.storyboard */,
-				F5FB8212156F116B003EEC6B /* ViewController.h */,
-				F5FB8213156F116B003EEC6B /* ViewController.m */,
 				F5FB8204156F116B003EEC6B /* Supporting Files */,
 			);
 			path = localTweet;
@@ -162,7 +162,7 @@
 			files = (
 				F5FB820A156F116B003EEC6B /* main.m in Sources */,
 				F5FB820E156F116B003EEC6B /* AppDelegate.m in Sources */,
-				F5FB8214156F116B003EEC6B /* ViewController.m in Sources */,
+				180A7171156F2B6500629A7E /* timelineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +274,7 @@
 				F5FB8219156F116B003EEC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
